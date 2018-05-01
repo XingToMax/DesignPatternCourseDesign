@@ -14,10 +14,9 @@
 3. [讲一个和Java web项目中mvc有关的情景](https://github.com/XingToMax/DesignPatternDemo/blob/master/blogs/mvc.md)
 4. [前后端的数据交互](https://github.com/XingToMax/DesignPatternDemo/blob/master/blogs/%E5%89%8D%E5%90%8E%E7%AB%AF%E6%95%B0%E6%8D%AE%E4%BA%A4%E4%BA%92.md)
 5. [增加数据库支持](https://github.com/XingToMax/DesignPatternDemo/blob/master/blogs/%E5%A2%9E%E5%8A%A0%E6%95%B0%E6%8D%AE%E5%BA%93%E6%94%AF%E6%8C%81.md)
-6. [注册功能的实现]()
-7. [登录功能的实现]()
-8. [简单留言功能的实现]()
-9. [总结]()
+6. [登录注册功能的实现]()
+7. [简单留言功能的实现]()
+8. [总结]()
 
 ## 阅读须知
 

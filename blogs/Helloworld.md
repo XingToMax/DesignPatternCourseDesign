@@ -52,6 +52,8 @@
 
 ![](https://tomax.xin/img/blog/cd/11.png)
 
++ 点击Fix处理一个问题
+
 ![](https://tomax.xin/img/blog/cd/12.png)
 
 + 点击Fix 后，问题会自动解决，进入下面的界面
@@ -92,7 +94,7 @@
 
 ![](https://tomax.xin/img/blog/cd/20.png)
 
-+ 这里，不妨在啰嗦下，在web目录下新建一个login.jsp，并填写相应的内容，详细见图
++ 这里，不妨再啰嗦下，在web目录下新建一个login.jsp，并填写相应的内容，详细见图
 
 ![](https://tomax.xin/img/blog/cd/21.png)
 ![](https://tomax.xin/img/blog/cd/22.png)
