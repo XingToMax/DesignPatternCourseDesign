@@ -8,8 +8,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6eb69019-4db6-491d-8c12-dc449d85b61d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/Helloworld.md" afterPath="$PROJECT_DIR$/blogs/Helloworld.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/README.md" afterPath="$PROJECT_DIR$/blogs/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/mvc.md" afterPath="$PROJECT_DIR$/blogs/mvc.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/前后端数据交互.md" afterPath="$PROJECT_DIR$/blogs/前后端数据交互.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/开发环境搭建.md" afterPath="$PROJECT_DIR$/blogs/开发环境搭建.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -469,7 +472,7 @@
       <workItem from="1524840668805" duration="1425000" />
       <workItem from="1525007420839" duration="19384000" />
       <workItem from="1525173976426" duration="5257000" />
-      <workItem from="1525182969886" duration="546000" />
+      <workItem from="1525182969886" duration="1173000" />
     </task>
     <task id="LOCAL-00001" summary="init repository">
       <created>1525181091143</created>
@@ -499,11 +502,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525183104825</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="更新博客">
+      <created>1525183528182</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1525183528182</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42459000" />
+    <option name="totallyTimeSpent" value="43086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
@@ -546,7 +556,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="init repository" />
+    <MESSAGE value="更新博客" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新博客" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

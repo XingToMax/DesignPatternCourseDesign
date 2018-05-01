@@ -47,6 +47,7 @@
 + 课设的生命周期通常始于问题的提出，终于验收；而项目在发布后还需要团队定期维护，修复一些存在的问题，发布优化、更新的版本
 + 还有很多......
 
+[开发环境搭建](https://github.com/XingToMax/DesignPatternDemo/blob/master/blogs/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md)
 
 <br>
 

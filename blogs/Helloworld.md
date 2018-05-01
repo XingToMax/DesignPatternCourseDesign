@@ -372,6 +372,7 @@ ResultCause checkToken(String token){
 
 在HelloWorld中，只是提到了很简单的几个方法，但其实这些比较简单的形式足以支撑许多功能的controller开发了，其实，有想像力的同学已经可以使用这些形式做出许多很有用的表达，在下一篇博客中，将会通过一些情景来描述web开发
 
+[下一篇：讲一个和Java web项目中mvc有关的情景](https://github.com/XingToMax/DesignPatternDemo/blob/master/blogs/mvc.md)
 
 <br>
 

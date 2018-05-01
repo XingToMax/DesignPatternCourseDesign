@@ -56,9 +56,7 @@
 
 到这里，是不是对于即将开展的具体功能的开发要做些什么有一个大体的认识了呢。
 
-下面附上一张图
-
-![]()
+[下一篇：前后端的数据交互](https://github.com/XingToMax/DesignPatternDemo/blob/master/blogs/%E5%89%8D%E5%90%8E%E7%AB%AF%E6%95%B0%E6%8D%AE%E4%BA%A4%E4%BA%92.md)
 
 ## **小结**
 
