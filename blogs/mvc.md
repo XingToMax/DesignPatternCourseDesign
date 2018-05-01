@@ -58,6 +58,8 @@
 
 [下一篇：前后端的数据交互](https://github.com/XingToMax/DesignPatternDemo/blob/master/blogs/%E5%89%8D%E5%90%8E%E7%AB%AF%E6%95%B0%E6%8D%AE%E4%BA%A4%E4%BA%92.md)
 
+[回到目录](https://github.com/XingToMax/DesignPatternDemo/tree/master/blogs)
+
 ## **小结**
 
 写了这些更多是想要再次将自己对于java web开发的印象去梳理一遍，以上纯属拙见，不过这里用来完成课设应该是足够了。

@@ -378,6 +378,8 @@ ResultCause checkToken(String token){
 
 [下一篇：讲一个和Java web项目中mvc有关的情景](https://github.com/XingToMax/DesignPatternDemo/blob/master/blogs/mvc.md)
 
+[回到目录](https://github.com/XingToMax/DesignPatternDemo/tree/master/blogs)
+
 <br>
 
 > 如果有帮助的话，来颗star吧
