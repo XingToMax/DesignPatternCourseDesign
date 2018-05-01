@@ -42,6 +42,8 @@
 
 ![](https://tomax.xin/img/blog/cd/8.png)
 
++ 选择Tomcat的解压路径（该目录下包含bin、conf等目录）
+
 ![](https://tomax.xin/img/blog/cd/9.png)
 
 ![](https://tomax.xin/img/blog/cd/10.png)
