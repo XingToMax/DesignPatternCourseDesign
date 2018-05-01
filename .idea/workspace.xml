@@ -8,11 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6eb69019-4db6-491d-8c12-dc449d85b61d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/Helloworld.md" afterPath="$PROJECT_DIR$/blogs/Helloworld.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/README.md" afterPath="$PROJECT_DIR$/blogs/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/mvc.md" afterPath="$PROJECT_DIR$/blogs/mvc.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/前后端数据交互.md" afterPath="$PROJECT_DIR$/blogs/前后端数据交互.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/开发环境搭建.md" afterPath="$PROJECT_DIR$/blogs/开发环境搭建.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,8 +49,21 @@
         <entry file="file://$PROJECT_DIR$/blogs/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="165">
-                <caret line="15" column="144" lean-forward="false" selection-start-line="15" selection-start-column="144" selection-end-line="15" selection-end-column="144" />
+              <first_editor relative-caret-position="142">
+                <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="开发环境搭建.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogs/开发环境搭建.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-5204">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -129,26 +138,6 @@
               <caret line="55" column="26" lean-forward="false" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/nuaa/tomax/controller/HelloController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#801#802#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
-                <element signature="e#989#990#0" expanded="true" />
-                <element signature="e#1036#1037#0" expanded="true" />
-                <element signature="e#1182#1183#0" expanded="true" />
-                <element signature="e#1240#1241#0" expanded="true" />
-                <element signature="e#1384#1385#0" expanded="true" />
-                <element signature="e#1441#1442#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -472,7 +461,7 @@
       <workItem from="1524840668805" duration="1425000" />
       <workItem from="1525007420839" duration="19384000" />
       <workItem from="1525173976426" duration="5257000" />
-      <workItem from="1525182969886" duration="1173000" />
+      <workItem from="1525182969886" duration="1295000" />
     </task>
     <task id="LOCAL-00001" summary="init repository">
       <created>1525181091143</created>
@@ -509,11 +498,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525183528182</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="更新博客，增加博客间链接">
+      <created>1525185562196</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1525185562196</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43086000" />
+    <option name="totallyTimeSpent" value="43208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
@@ -557,21 +553,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init repository" />
     <MESSAGE value="更新博客" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新博客" />
+    <MESSAGE value="更新博客，增加博客间链接" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新博客，增加博客间链接" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/nuaa/tomax/dao/DaoHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/nuaa/tomax/dao/IHelloDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1287">
@@ -1006,11 +995,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/开发环境搭建.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-5204">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blogs/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="165">
-            <caret line="15" column="144" lean-forward="false" selection-start-line="15" selection-start-column="144" selection-end-line="15" selection-end-column="144" />
+          <first_editor relative-caret-position="142">
+            <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
             <folding />
           </first_editor>
           <second_editor />
