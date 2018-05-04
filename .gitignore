@@ -3,6 +3,5 @@
 ### Example user template
 
 # IntelliJ project files
-*.iml
 out
 gen

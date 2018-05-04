@@ -43,7 +43,7 @@ public class UserServiceImpl implements IUserService{
             //设置注册时间
             user.setTime(new Timestamp(System.currentTimeMillis()));
             //id为自增字段，所以不需要在这里设置
-            String sql = "insert into user (name,password,time) values (:user,:password,:time)";
+            String sql = "insert into user (name,password,time) values (:name,:password,:time)";
             userDao.saveUser(sql,user);
         }
         return new ResultCause(ResultCause.SUCCESS_CODE,"注册成功");
@@ -59,6 +59,6 @@ public class UserServiceImpl implements IUserService{
     private UserEntity getTargetUser(String name){
         String sql = "select * from user where name = ?";
         List<UserEntity> userEntities = userDao.listUsers(sql,new Object[]{name});
-        return userEntities!=null?userEntities.get(0):null;
+        return (userEntities!=null&&userEntities.size()>0)?userEntities.get(0):null;
     }
 }
