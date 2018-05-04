@@ -7,8 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6eb69019-4db6-491d-8c12-dc449d85b61d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogs/问题解答.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/Helloworld.md" afterPath="$PROJECT_DIR$/blogs/Helloworld.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/README.md" afterPath="$PROJECT_DIR$/blogs/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/mvc.md" afterPath="$PROJECT_DIR$/blogs/mvc.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/前后端数据交互.md" afterPath="$PROJECT_DIR$/blogs/前后端数据交互.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/增加数据库支持.md" afterPath="$PROJECT_DIR$/blogs/增加数据库支持.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/开发环境搭建.md" afterPath="$PROJECT_DIR$/blogs/开发环境搭建.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/总结.md" afterPath="$PROJECT_DIR$/blogs/总结.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/登录注册功能的实现.md" afterPath="$PROJECT_DIR$/blogs/登录注册功能的实现.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/简单留言功能的实现.md" afterPath="$PROJECT_DIR$/blogs/简单留言功能的实现.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/问题解答.md" afterPath="$PROJECT_DIR$/blogs/问题解答.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -120,7 +129,7 @@
       <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/nuaa/tomax/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
+            <state relative-caret-position="330">
               <caret line="60" column="9" lean-forward="false" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -533,7 +542,7 @@
       <workItem from="1525007420839" duration="19384000" />
       <workItem from="1525173976426" duration="5257000" />
       <workItem from="1525182969886" duration="3239000" />
-      <workItem from="1525440551659" duration="4679000" />
+      <workItem from="1525440551659" duration="4916000" />
     </task>
     <task id="LOCAL-00001" summary="init repository">
       <created>1525181091143</created>
@@ -612,11 +621,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525447093624</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1.增加问题解答&#10;2.增加登录注册功能的部分实现">
+      <created>1525447182052</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1525447182052</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49831000" />
+    <option name="totallyTimeSpent" value="50068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
@@ -1145,7 +1161,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/nuaa/tomax/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state relative-caret-position="330">
           <caret line="60" column="9" lean-forward="false" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />

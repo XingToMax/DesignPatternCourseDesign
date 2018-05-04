@@ -60,6 +60,8 @@
 
 [回到目录](https://github.com/XingToMax/DesignPatternDemo/tree/master/blogs)
 
+[问题解答](https://github.com/XingToMax/DesignPatternDemo/blob/master/blogs/%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94.md)
+
 ## **小结**
 
 写了这些更多是想要再次将自己对于java web开发的印象去梳理一遍，以上纯属拙见，不过这里用来完成课设应该是足够了。
