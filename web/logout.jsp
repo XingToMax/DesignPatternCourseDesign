@@ -11,7 +11,7 @@
     <title>注销</title>
     <%
         session.invalidate();
-        out.print("<script>window.location.href = 'login.jsp'</script>");
+        out.print("<script>window.location.href = 'index.jsp'</script>");
     %>
 </head>
 <body>

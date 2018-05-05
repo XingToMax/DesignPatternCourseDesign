@@ -49,6 +49,12 @@ public class UserServiceImpl implements IUserService{
         return new ResultCause(ResultCause.SUCCESS_CODE,"注册成功");
     }
 
+    @Override
+    public UserEntity getUserInfo(String name) {
+        String sql = "select name,id from user where name = ?";
+        return userDao.listUsers(sql,new Object[]{name}).get(0);
+    }
+
     /**
      * 根据用户名查找用户，因为本系统用户名唯一，所以用户名查找到的结果为单个用户对象
      * 同时，因为在登录验证和注册查重中均有查询用户对象的需求，所以将这部分代码拿出，

@@ -23,4 +23,11 @@ public interface IUserService {
      * @return
      */
     public ResultCause registerUser(UserEntity user);
+
+    /**
+     * 通过用户名获取用户信息
+     * @param name
+     * @return
+     */
+    public UserEntity getUserInfo(String name);
 }

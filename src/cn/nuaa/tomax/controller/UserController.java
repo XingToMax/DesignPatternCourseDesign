@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.annotation.Resource;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 /**
@@ -28,8 +29,10 @@ public class UserController extends SuperAction{
     public @ResponseBody
     ResultCause login(String name, String password) throws IOException {
         ResultCause result = userService.checkUser(name,password);
+        HttpSession session = request.getSession();
+        session.removeAttribute("user");
         if (result.getCode().equals(ResultCause.SUCCESS_CODE)){
-            //TODO : 处理session
+            session.setAttribute("user",userService.getUserInfo(name));
         }
         return result;
     }
