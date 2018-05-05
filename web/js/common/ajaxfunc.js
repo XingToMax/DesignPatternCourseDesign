@@ -4,13 +4,16 @@ function post(url,param,callback){
         type : 'post',
         data : param,
         dataType : 'json',
-        success : function(data, status) {
-            if (status == "success") {
-                callback(data);
-            }
+        timeout : 100000,
+        success : function(data) {
+            callback(data);
         },
-        error : function(data, status, e) {
-            alert("连接超时");
+        error : function(e) {
+            console.log("ERROR: ", e);
+        },
+        done : function(e) {
+            console.log("DONE");
+            enableSearchButton(true);
         },
         complete : function() {
         }

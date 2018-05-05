@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>登录</title>
+    <title>注册</title>
 </head>
 <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
 <link rel="stylesheet" href="css/user/user_normal.css">
@@ -34,7 +34,7 @@
                 <label for="password">密码</label>
                 <input type="password" id="password" class="form-control" placeholder="Password" name="password" required>
                 <br>
-                <button class="btn btn-lg btn-primary btn-block" type="submit">注册</button>
+                <button class="btn btn-lg btn-primary btn-block" id="reg_btn">注册</button>
             </div>
         </div>
     </form>

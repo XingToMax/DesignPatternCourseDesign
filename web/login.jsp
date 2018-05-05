@@ -14,23 +14,7 @@
 <link rel="stylesheet" href="css/user/user_normal.css">
 <link rel="stylesheet" href="css/button.css">
 <%
-    String username = "";
-    String password = "";
-    String flag = "false";
-    Cookie [] cookies = request.getCookies();
-    if (cookies != null){
-        for (Cookie in : cookies){
-            if (in.getName().equals("trainUsername")){
-                username = in.getValue();
-            }
-            if (in.getName().equals("trainPass")){
-                password = in.getValue();
-            }
-            if (in.getName().equals("trainFlag")){
-                flag = in.getValue();
-            }
-        }
-    }
+
 %>
 <body>
 <div class="container">
@@ -47,10 +31,10 @@
             </div>
             <div class="panel-body">
                 <label for="username">用户名</label>
-                <input type="text" id="username" class="form-control" placeholder="Username" name="username" value="<%=username%>" required autofocus>
+                <input type="text" id="username" class="form-control" placeholder="Username" name="username" required autofocus>
                 <br>
                 <label for="password">密码</label>
-                <input type="password" id="password" class="form-control" placeholder="Password" name="password" value="<%=password%>" required>
+                <input type="password" id="password" class="form-control" placeholder="Password" name="password" required>
                 <br>
                 <div class="checkbox">
                     <label>
@@ -58,8 +42,8 @@
                     </label>
                 </div>
                 <br>
+                <button type="button" class="btn btn-lg btn-primary btn-block" id="loginBtn">登录</button>
             </div>
-            <button type="button" onclick="loginAction()" class="btn btn-lg btn-primary btn-block" id="loginBtn">登录</button>
         </div>
     </form>
 
@@ -68,11 +52,5 @@
 <script src="js/bootstrap/bootstrap.min.js"></script>
 <script src="js/common/ajaxfunc.js"></script>
 <script src="js/user/login.js"></script>
-<script>
-    var flag = <%=flag%>
-    if(flag == true){
-        $("#remb").attr('checked','checked')
-    }
-</script>
 </body>
 </html>
