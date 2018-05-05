@@ -19,7 +19,7 @@ $('#msg_btn').on('click',function () {
     }else {
         var content = $('#msg_con').val()
         var param = {'content':content,'userId':userId}
-        post('/msg/addMsg',param,function (result) {
+        post('msg/addMsg',param,function (result) {
             alert(result.desc)
             getMsgListRequest()
         })
