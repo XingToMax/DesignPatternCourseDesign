@@ -9,7 +9,6 @@
     <list default="true" id="6eb69019-4db6-491d-8c12-dc449d85b61d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/开发环境搭建.md" afterPath="$PROJECT_DIR$/blogs/开发环境搭建.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/总结.md" afterPath="$PROJECT_DIR$/blogs/总结.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -537,7 +536,7 @@
       <workItem from="1525173976426" duration="5257000" />
       <workItem from="1525182969886" duration="3239000" />
       <workItem from="1525440551659" duration="9981000" />
-      <workItem from="1525489678287" duration="28861000" />
+      <workItem from="1525489678287" duration="28974000" />
     </task>
     <task id="LOCAL-00001" summary="init repository">
       <created>1525181091143</created>
@@ -665,11 +664,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525536867786</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="测试图片">
+      <created>1525569570547</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1525569570547</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83994000" />
+    <option name="totallyTimeSpent" value="84107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
@@ -682,7 +688,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.610582" sideWeight="0.50182384" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45185184" sideWeight="0.49817613" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45185184" sideWeight="0.49817613" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -723,7 +729,8 @@
     <MESSAGE value="基本完成留言板功能" />
     <MESSAGE value="添加sql文件" />
     <MESSAGE value="更新message.js，修复访问路径问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新message.js，修复访问路径问题" />
+    <MESSAGE value="测试图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试图片" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
