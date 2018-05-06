@@ -134,7 +134,7 @@
 
 ![](https://tomax.xin/img/blog/cd/28.png)
 
-+ 对于jar包，需要分别add as library，每个目录下全部选中集中添加一次即可
++ 对于jar包，需要分别add as library，**每个目录下**(千万别所有目录一起添加了，每个目录下的内容都是一个整体)全部选中集中添加一次即可
 
 ![](https://tomax.xin/img/blog/cd/29.png)
 
