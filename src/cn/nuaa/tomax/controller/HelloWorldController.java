@@ -81,7 +81,7 @@ public class HelloWorldController {
     public @ResponseBody
     List<ResultCause> getList(){
         List<ResultCause> resultCauses = new ArrayList<>();
-        resultCauses.add(new ResultCause("200","ToMax"));
+        resultCauses.add(new ResultCause("200","汤茂行"));
         resultCauses.add(new ResultCause("300","Java"));
         resultCauses.add(new ResultCause("400","Hello World"));
         return resultCauses;
