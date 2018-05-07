@@ -28,7 +28,6 @@ import java.util.List;
 @EnableWebMvc
 @ComponentScan("cn.nuaa.tomax")
 public class WebConfig extends WebMvcConfigurerAdapter{
-
     /**
      * @Description 配置视图解析器
      * @return

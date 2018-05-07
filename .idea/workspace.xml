@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6eb69019-4db6-491d-8c12-dc449d85b61d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/问题解答.md" afterPath="$PROJECT_DIR$/blogs/问题解答.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/nuaa/tomax/configuration/WebConfig.java" afterPath="$PROJECT_DIR$/src/cn/nuaa/tomax/configuration/WebConfig.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/cn/nuaa/tomax/configuration/WebConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="67" column="41" lean-forward="false" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
+              <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -517,7 +517,7 @@
       <workItem from="1525182969886" duration="3239000" />
       <workItem from="1525440551659" duration="9981000" />
       <workItem from="1525489678287" duration="40396000" />
-      <workItem from="1525675266287" duration="3928000" />
+      <workItem from="1525675266287" duration="6522000" />
     </task>
     <task id="LOCAL-00001" summary="init repository">
       <created>1525181091143</created>
@@ -722,11 +722,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525678463462</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="新增基于Apache commons支持文件上传&#10;&#10;新增文件上传resolver配置&#10;&#10;新增文件上传依赖apache-commons-fileupload、apache-commons-io">
+      <created>1525679272882</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1525679272882</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99457000" />
+    <option name="totallyTimeSpent" value="102051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
@@ -1192,7 +1199,7 @@
     <entry file="file://$PROJECT_DIR$/src/cn/nuaa/tomax/configuration/WebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="67" column="41" lean-forward="false" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
+          <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
           <folding />
         </state>
       </provider>
