@@ -7,16 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6eb69019-4db6-491d-8c12-dc449d85b61d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/fileupload/commons-fileupload-1.3.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/fileupload/commons-io-2.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_1_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/nuaa/tomax/controller/FileUploadController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/upload_file.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/DesignPatternDemo_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/DesignPatternDemo_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DesignPatternDemo.iml" afterPath="$PROJECT_DIR$/DesignPatternDemo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/nuaa/tomax/configuration/WebConfig.java" afterPath="$PROJECT_DIR$/src/cn/nuaa/tomax/configuration/WebConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/问题解答.md" afterPath="$PROJECT_DIR$/blogs/问题解答.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,8 +45,8 @@
       <file leaf-file-name="WebConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/nuaa/tomax/configuration/WebConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="361">
+              <caret line="67" column="41" lean-forward="false" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -63,7 +55,7 @@
       <file leaf-file-name="FileUploadController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/nuaa/tomax/controller/FileUploadController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
+            <state relative-caret-position="-231">
               <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -75,7 +67,7 @@
       <file leaf-file-name="upload_file.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/upload_file.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
+            <state relative-caret-position="856">
               <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
               <folding />
             </state>
@@ -129,7 +121,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="495">
-                <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -274,19 +266,6 @@
               <item name="DesignPatternDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatternDemo" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatternDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatternDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="fileupload" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatternDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatternDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="fileupload" type="462c0819:PsiDirectoryNode" />
-              <item name="commons-fileupload-1.3.3.jar" type="ab9368bb:PsiFileNode" />
             </path>
             <path>
               <item name="DesignPatternDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -538,7 +517,7 @@
       <workItem from="1525182969886" duration="3239000" />
       <workItem from="1525440551659" duration="9981000" />
       <workItem from="1525489678287" duration="40396000" />
-      <workItem from="1525675266287" duration="3022000" />
+      <workItem from="1525675266287" duration="3928000" />
     </task>
     <task id="LOCAL-00001" summary="init repository">
       <created>1525181091143</created>
@@ -736,11 +715,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525617543634</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="新增基于Apache commons支持文件上传&#10;&#10;新增文件上传resolver配置&#10;&#10;新增文件上传依赖apache-commons-fileupload、apache-commons-io">
+      <created>1525678463462</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1525678463462</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98551000" />
+    <option name="totallyTimeSpent" value="99457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
@@ -802,7 +788,8 @@
     <MESSAGE value="添加注意点" />
     <MESSAGE value="修复表单提交中文乱码的问题，修改了WebInitializer" />
     <MESSAGE value="修改README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改README.md" />
+    <MESSAGE value="新增基于Apache commons支持文件上传&#10;&#10;新增文件上传resolver配置&#10;&#10;新增文件上传依赖apache-commons-fileupload、apache-commons-io" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增基于Apache commons支持文件上传&#10;&#10;新增文件上传resolver配置&#10;&#10;新增文件上传依赖apache-commons-fileupload、apache-commons-io" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1153,7 +1140,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="495">
-            <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1184,9 +1171,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/upload_file.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="856">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/nuaa/tomax/controller/FileUploadController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state relative-caret-position="-231">
           <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1194,18 +1189,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/upload_file.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/nuaa/tomax/configuration/WebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="361">
+          <caret line="67" column="41" lean-forward="false" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
           <folding />
         </state>
       </provider>
