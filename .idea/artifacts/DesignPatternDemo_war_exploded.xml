@@ -13,6 +13,8 @@
           <element id="library" level="project" name="jackson-annotations-2.6.5" />
           <element id="library" level="project" name="commons-dbcp2-2.1.1" />
           <element id="library" level="project" name="mysql-connector-java-5.1.40" />
+          <element id="library" level="project" name="commons-fileupload-1.3.3" />
+          <element id="library" level="project" name="commons-io-2.6" />
         </element>
       </element>
     </root>

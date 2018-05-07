@@ -28,5 +28,7 @@
     <orderEntry type="library" name="servlet-api" level="project" />
     <orderEntry type="library" name="commons-dbcp2-2.1.1" level="project" />
     <orderEntry type="library" name="mysql-connector-java-5.1.40" level="project" />
+    <orderEntry type="library" name="commons-fileupload-1.3.3" level="project" />
+    <orderEntry type="library" name="commons-io-2.6" level="project" />
   </component>
 </module>

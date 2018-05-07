@@ -8,6 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
+import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 import org.springframework.web.portlet.mvc.annotation.AnnotationMethodHandlerAdapter;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
@@ -69,5 +70,17 @@ public class WebConfig extends WebMvcConfigurerAdapter{
         jackson2HttpMessageConverter.setObjectMapper(objectMapper);
         //放到第一个
         converters.add(0, jackson2HttpMessageConverter);
+    }
+
+    /**
+     * 配置multipart resolver，用于文件上传处理
+     * 单个上传文件大小应不超过5M
+     * @return
+     */
+    @Bean(name = "multipartResolver")
+    public CommonsMultipartResolver getCommonsMultipartResolver(){
+        CommonsMultipartResolver resolver = new CommonsMultipartResolver();
+        resolver.setMaxUploadSizePerFile(5242880);
+        return resolver;
     }
 }
