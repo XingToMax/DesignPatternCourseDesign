@@ -8,15 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6eb69019-4db6-491d-8c12-dc449d85b61d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/Helloworld.md" afterPath="$PROJECT_DIR$/blogs/Helloworld.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/README.md" afterPath="$PROJECT_DIR$/blogs/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/mvc.md" afterPath="$PROJECT_DIR$/blogs/mvc.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/前后端数据交互.md" afterPath="$PROJECT_DIR$/blogs/前后端数据交互.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/增加数据库支持.md" afterPath="$PROJECT_DIR$/blogs/增加数据库支持.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/开发环境搭建.md" afterPath="$PROJECT_DIR$/blogs/开发环境搭建.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/总结.md" afterPath="$PROJECT_DIR$/blogs/总结.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/登录注册功能的实现.md" afterPath="$PROJECT_DIR$/blogs/登录注册功能的实现.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogs/简单留言功能的实现.md" afterPath="$PROJECT_DIR$/blogs/简单留言功能的实现.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/nuaa/tomax/configuration/WebConfig.java" afterPath="$PROJECT_DIR$/src/cn/nuaa/tomax/configuration/WebConfig.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,18 +23,28 @@
       <file leaf-file-name="WebInitializer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/nuaa/tomax/configuration/WebInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
+            <state relative-caret-position="463">
               <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebConfig.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/nuaa/tomax/configuration/AppConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/nuaa/tomax/configuration/WebConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1716">
-              <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+            <state relative-caret-position="384">
+              <caret line="73" column="6" lean-forward="false" selection-start-line="73" selection-start-column="6" selection-end-line="83" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,12 +67,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="登录注册功能的实现.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="登录注册功能的实现.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blogs/登录注册功能的实现.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-3201">
-                <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+              <first_editor relative-caret-position="528">
+                <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
                 <folding>
                   <marker date="1525785221599" expanded="true" signature="815:1040" ph="CREATE TABLE... user" />
                 </folding>
@@ -102,16 +104,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RootConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/nuaa/tomax/configuration/RootConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MessageController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/nuaa/tomax/controller/MessageController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -138,7 +130,7 @@
         <entry file="file://$PROJECT_DIR$/blogs/问题跟踪和更新说明.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="957">
+              <first_editor relative-caret-position="495">
                 <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
                 <folding />
               </first_editor>
@@ -224,9 +216,9 @@
         <option value="$PROJECT_DIR$/web/upload_FILE.jsp" />
         <option value="$PROJECT_DIR$/web/upload_file.jsp" />
         <option value="$PROJECT_DIR$/src/cn/nuaa/tomax/controller/FileUploadController.java" />
-        <option value="$PROJECT_DIR$/src/cn/nuaa/tomax/configuration/WebConfig.java" />
         <option value="$PROJECT_DIR$/blogs/简单留言功能的实现.md" />
         <option value="$PROJECT_DIR$/blogs/登录注册功能的实现.md" />
+        <option value="$PROJECT_DIR$/src/cn/nuaa/tomax/configuration/WebConfig.java" />
       </list>
     </option>
   </component>
@@ -531,7 +523,7 @@
       <workItem from="1525440551659" duration="9981000" />
       <workItem from="1525489678287" duration="40396000" />
       <workItem from="1525675266287" duration="10748000" />
-      <workItem from="1525760450861" duration="2130000" />
+      <workItem from="1525760450861" duration="3716000" />
     </task>
     <task id="LOCAL-00001" summary="init repository">
       <created>1525181091143</created>
@@ -757,11 +749,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525702685008</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="问题跟踪更新&#10;更正错字">
+      <created>1525785257465</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1525785257465</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108407000" />
+    <option name="totallyTimeSpent" value="109993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
@@ -834,16 +833,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blogs/开发环境搭建.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="5412">
-            <caret line="164" column="72" lean-forward="false" selection-start-line="164" selection-start-column="72" selection-end-line="164" selection-end-column="72" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogs/增加数据库支持.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -859,6 +848,7 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="8481">
             <caret line="257" column="72" lean-forward="false" selection-start-line="257" selection-start-column="72" selection-end-line="257" selection-end-column="72" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -879,6 +869,7 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="522">
             <caret line="380" column="72" lean-forward="false" selection-start-line="380" selection-start-column="72" selection-end-line="380" selection-end-column="72" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1119,17 +1110,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogs/问题跟踪和更新说明.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="957">
-            <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/nuaa/tomax/configuration/RootConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -1164,14 +1144,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/nuaa/tomax/configuration/WebInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/IDE/envir/jdk/src.zip!/javax/annotation/Resource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1196,16 +1168,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/nuaa/tomax/configuration/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogs/简单留言功能的实现.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1222,13 +1184,50 @@
     <entry file="file://$PROJECT_DIR$/blogs/登录注册功能的实现.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-3201">
-            <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <first_editor relative-caret-position="528">
+            <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
             <folding>
               <marker date="1525785221599" expanded="true" signature="815:1040" ph="CREATE TABLE... user" />
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/问题跟踪和更新说明.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="495">
+            <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/nuaa/tomax/configuration/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/nuaa/tomax/configuration/WebInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/nuaa/tomax/configuration/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="73" column="6" lean-forward="false" selection-start-line="73" selection-start-column="6" selection-end-line="83" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
