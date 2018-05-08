@@ -71,15 +71,15 @@ public class WebConfig extends WebMvcConfigurerAdapter{
         converters.add(0, jackson2HttpMessageConverter);
     }
 
-//    /**
-//     * 配置multipart resolver，用于文件上传处理
-//     * 单个上传文件大小应不超过5M
-//     * @return
-//     */
-//    @Bean(name = "multipartResolver")
-//    public CommonsMultipartResolver getCommonsMultipartResolver(){
-//        CommonsMultipartResolver resolver = new CommonsMultipartResolver();
-//        resolver.setMaxUploadSizePerFile(5242880);
-//        return resolver;
-//    }
+    /**
+     * 配置multipart resolver，用于文件上传处理
+     * 单个上传文件大小应不超过5M
+     * @return
+     */
+    @Bean(name = "multipartResolver")
+    public CommonsMultipartResolver getCommonsMultipartResolver(){
+        CommonsMultipartResolver resolver = new CommonsMultipartResolver();
+        resolver.setMaxUploadSizePerFile(5242880);
+        return resolver;
+    }
 }
