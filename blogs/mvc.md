@@ -60,7 +60,7 @@
 
 [回到目录](https://github.com/XingToMax/DesignPatternDemo/tree/master/blogs)
 
-[问题跟踪和更新说明](https://github.com/XingToMax/DesignPatternDemo/blob/master/blogs/%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94.md)
+[问题跟踪和更新说明](https://github.com/XingToMax/DesignPatternDemo/blob/master/blogs/%E9%97%AE%E9%A2%98%E8%B7%9F%E8%B8%AA%E5%92%8C%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E.md)
 
 ## **小结**
 
