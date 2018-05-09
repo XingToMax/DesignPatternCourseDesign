@@ -1,9 +1,9 @@
 var username = getCookie('demo_username')
 var password = getCookie('demo_password')
 var flag = getCookie('demo_flag')
-$("#username").val(username!=null?username:'')
-$("#password").val(password!=null?password:'')
-if (flag != null){
+$("#username").val(username!=undefined && username!=null?username:'')
+$("#password").val(password!=undefined && null?password:'')
+if (flag!=undefined && flag != null){
     $("#remb").attr('checked','checked')
 }
 
