@@ -42,7 +42,7 @@
                     </label>
                 </div>
                 <br>
-                <button type="button" class="btn btn-lg btn-primary btn-block" id="loginBtn">登录</button>
+                <button type="button" type="button" class="btn btn-lg btn-primary btn-block" id="loginBtn">登录</button>
             </div>
         </div>
     </form>

@@ -34,7 +34,7 @@
                 <label for="password">密码</label>
                 <input type="password" id="password" class="form-control" placeholder="Password" name="password" required>
                 <br>
-                <button class="btn btn-lg btn-primary btn-block" id="reg_btn">注册</button>
+                <button type="button" class="btn btn-lg btn-primary btn-block" id="reg_btn">注册</button>
             </div>
         </div>
     </form>
