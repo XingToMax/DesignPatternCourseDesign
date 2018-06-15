@@ -32,7 +32,7 @@ public class UserController extends SuperAction{
         HttpSession session = request.getSession();
         session.removeAttribute("user");
         if (result.getCode().equals(ResultCause.SUCCESS_CODE)){
-            session.setAttribute("user",userService.getUserInfo(name));
+            session.setAttribute(session.getId(),userService.getUserInfo(name));
         }
         return result;
     }
