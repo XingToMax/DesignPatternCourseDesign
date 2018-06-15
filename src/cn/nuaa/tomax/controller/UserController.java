@@ -30,7 +30,7 @@ public class UserController extends SuperAction{
     ResultCause login(String name, String password) throws IOException {
         ResultCause result = userService.checkUser(name,password);
         HttpSession session = request.getSession();
-        session.removeAttribute("user");
+        session.removeAttribute(session.getId());
         if (result.getCode().equals(ResultCause.SUCCESS_CODE)){
             session.setAttribute(session.getId(),userService.getUserInfo(name));
         }
