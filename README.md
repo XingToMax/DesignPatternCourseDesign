@@ -5,7 +5,7 @@
 
 + blogs目录下为博客，点开目录的README.md即为博客目录
 + sql目录下放了项目中出现表的sql文件
-+ [演示地址](https://tomax.xin/dpd)
++ [演示地址](http://tomax.xin/dpd)
 
 注：<br>
 master分支用于博客的演示<br>
