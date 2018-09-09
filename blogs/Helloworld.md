@@ -1,24 +1,23 @@
 # 建立一个Spring mvc项目，Hello world！
 **Author : ToMax**
-
 > 在这篇博客中，将完整的呈现如何建立一个Spring mvc应用，包括项目的建立、一些额外的依赖的引入以及Hello world
 
 ## 建立一个Spring 项目
 
 #### 第一步，Create new project，选择左侧的Spring项，并勾选Spring MVC、Web Application、
 
-![](https://tomax.xin/img/blog/cd/1.png)
-![](https://tomax.xin/img/blog/cd/2.png)
+![](http://tomax.xin/img/blog/cd/1.png)
+![](http://tomax.xin/img/blog/cd/2.png)
 
 #### 第二步，选择Next，进入项目保存路径界面,填写项目名称
 
 + 点击Finish后，IDE会帮助去下载相应的依赖，下载完成后就可以打开项目
 
-![](https://tomax.xin/img/blog/cd/3.png)
+![](http://tomax.xin/img/blog/cd/3.png)
 
 + 项目打开后界面
 
-![](https://tomax.xin/img/blog/cd/4.png)
+![](http://tomax.xin/img/blog/cd/4.png)
 
 + 项目目录
 
@@ -30,49 +29,49 @@
 
 + 选择程序启动项的Edit Configurations
 
-![](https://tomax.xin/img/blog/cd/5.png)
+![](http://tomax.xin/img/blog/cd/5.png)
 
 + 选择添加一种运行方案，这里选择tomcat的容器
 
-![](https://tomax.xin/img/blog/cd/6.png)
+![](http://tomax.xin/img/blog/cd/6.png)
 
 + 配置添加一个tomcat容器
 
-![](https://tomax.xin/img/blog/cd/7.png)
+![](http://tomax.xin/img/blog/cd/7.png)
 
-![](https://tomax.xin/img/blog/cd/8.png)
+![](http://tomax.xin/img/blog/cd/8.png)
 
 + 选择Tomcat的解压路径（该目录下包含bin、conf等目录）
 
-![](https://tomax.xin/img/blog/cd/9.png)
+![](http://tomax.xin/img/blog/cd/9.png)
 
-![](https://tomax.xin/img/blog/cd/10.png)
+![](http://tomax.xin/img/blog/cd/10.png)
 
 + 选择OK
 
-![](https://tomax.xin/img/blog/cd/11.png)
+![](http://tomax.xin/img/blog/cd/11.png)
 
 + 点击Fix处理一个问题
 
-![](https://tomax.xin/img/blog/cd/12.png)
+![](http://tomax.xin/img/blog/cd/12.png)
 
 + 点击Fix 后，问题会自动解决，进入下面的界面
 
-![](https://tomax.xin/img/blog/cd/13.png)
+![](http://tomax.xin/img/blog/cd/13.png)
 
 + 切回server tab页
 
-![](https://tomax.xin/img/blog/cd/14.png)
+![](http://tomax.xin/img/blog/cd/14.png)
 
 #### 第四步，处理一些项目依赖问题
 
 + 点击Project structure
 
-![](https://tomax.xin/img/blog/cd/15.png)
+![](http://tomax.xin/img/blog/cd/15.png)
 
 + Fix
 
-![](https://tomax.xin/img/blog/cd/16.png)
+![](http://tomax.xin/img/blog/cd/16.png)
 
 + 点击OK返回
 
@@ -80,32 +79,32 @@
 
 + 点击绿色倒三角标启动，稍等片刻，弹出浏览器显示一下信息则启动成功
 
-![](https://tomax.xin/img/blog/cd/17.png)
+![](http://tomax.xin/img/blog/cd/17.png)
 
 + 还不是很明显，所以，我们来修改web目录下的index.jsp
 
-![](https://tomax.xin/img/blog/cd/18.png)
+![](http://tomax.xin/img/blog/cd/18.png)
 
 + 因为只是更改了网页部分，没有需要重新编译的java项，所以只需要选择update即可，操作如图
 
-![](https://tomax.xin/img/blog/cd/19.png)
+![](http://tomax.xin/img/blog/cd/19.png)
 
 + 更新后回到浏览器F5刷新后如图，发现index已更新，所以由idea默认生成的index.jsp即为默认访问的页面
 
-![](https://tomax.xin/img/blog/cd/20.png)
+![](http://tomax.xin/img/blog/cd/20.png)
 
 + 这里，不妨再啰嗦下，在web目录下新建一个login.jsp，并填写相应的内容，详细见图
 
-![](https://tomax.xin/img/blog/cd/21.png)
-![](https://tomax.xin/img/blog/cd/22.png)
+![](http://tomax.xin/img/blog/cd/21.png)
+![](http://tomax.xin/img/blog/cd/22.png)
 
 + 点击运行项，update 一下，刷新浏览器，并将地址栏修改为localhost:8080/login.jsp，如图
 
-![](https://tomax.xin/img/blog/cd/23.png)
+![](http://tomax.xin/img/blog/cd/23.png)
 
 + 下面尝试将默认启动的网页改为index.jsp，首先，找到WEB-INF目录下的web.xml
 
-![](https://tomax.xin/img/blog/cd/24.png)
+![](http://tomax.xin/img/blog/cd/24.png)
 
 + 在工作区添加以下代码
 
@@ -114,11 +113,11 @@
     <welcome-file>login.jsp</welcome-file>
 </welcome-file-list>
 ```
-![](https://tomax.xin/img/blog/cd/25.png)
+![](http://tomax.xin/img/blog/cd/25.png)
 
 + 点击run，重启服务器(Restart server)[快捷键为shift+f10]
 
-![](https://tomax.xin/img/blog/cd/26.png)
+![](http://tomax.xin/img/blog/cd/26.png)
 
 + 发现默认路径已经改为了login.jsp，好了，现在切回正题
 
@@ -128,42 +127,42 @@
 
 + 首先，暂时删除WEB-INF目录下的applicationContext.xml、dispatcher-servlet.xml，同时将web.xml中web-app标签内除了刚刚增加的welcome-file-list标签以外的内容，删除多余的内容的目的是防止与之后基于java的配置产生冲突
 
-![](https://tomax.xin/img/blog/cd/27.png)
+![](http://tomax.xin/img/blog/cd/27.png)
 
 + 然后在lib目录里添加servlet、jackson、dbcp、mysql-connector-java的依赖，这四个依赖在github本项目中的同级lib目录下可以获取，直接拷贝即可
 
-![](https://tomax.xin/img/blog/cd/28.png)
+![](http://tomax.xin/img/blog/cd/28.png)
 
 + 对于jar包，需要分别add as library，**每个目录下**(千万别所有目录一起添加了，每个目录下的内容都是一个整体)全部选中集中添加一次即可
 
-![](https://tomax.xin/img/blog/cd/29.png)
+![](http://tomax.xin/img/blog/cd/29.png)
 
 + 添加后如图
 
-![](https://tomax.xin/img/blog/cd/30.png)
+![](http://tomax.xin/img/blog/cd/30.png)
 
 + 然后需要点开Project structure, Fix problems，均为add to artifact
 
-![](https://tomax.xin/img/blog/cd/31.png)
+![](http://tomax.xin/img/blog/cd/31.png)
 
 + 之后，我们需要创建java的开发目录，在src目录下添加如下包（右键或者alt+insert呼出菜单栏）
 
-![](https://tomax.xin/img/blog/cd/32.png)
+![](http://tomax.xin/img/blog/cd/32.png)
 
-![](https://tomax.xin/img/blog/cd/33.png)
+![](http://tomax.xin/img/blog/cd/33.png)
 
 + 右键建好的包，选择show in explorer 进入对应的文件夹
 
-![](https://tomax.xin/img/blog/cd/34.png)
-![](https://tomax.xin/img/blog/cd/35.png)
+![](http://tomax.xin/img/blog/cd/34.png)
+![](http://tomax.xin/img/blog/cd/35.png)
 
 + 进入tomax目录，建立如下图所示几个文件夹，其中configuration是配置java的文件夹，res是资源目录，utils是工具目录，其他的目录意义将在下一篇博客中进行详细的解释，res和utils目录并非必须，也可以根据喜好来命名
 
-![](https://tomax.xin/img/blog/cd/36.png)
+![](http://tomax.xin/img/blog/cd/36.png)
 
 + 下面要在configuration目录下添加spring框架的配置java文件，为了降低难度，直接从github本项目相应的目录下复制四个java文件进入即可，当作默认配置好的就好，后面用到时会做具体的解释(可能复制时会因为不同人对应包名的命名不同，所以可能需要调整包名，但正常情况下idea会帮助我们自动调整)
 
-![](https://tomax.xin/img/blog/cd/37.png)
+![](http://tomax.xin/img/blog/cd/37.png)
 
 复制完成后，还要对其中的一些信息作调整
 
@@ -179,7 +178,7 @@
 
 + 首先，需要在cn.nuaa.tomax.controller包下添加一个HelloWorldController.
 
-![](https://tomax.xin/img/blog/cd/38.png)
+![](http://tomax.xin/img/blog/cd/38.png)
 
 + 打开HelloWorldController ，添加如下代码
 
@@ -209,7 +208,7 @@ public class HelloWorldController {
 
 那么，我们重启一下服务器(即运行中的restart server 选项)，重启成功后，在地址栏输入`localhost:8080/hello`，将会发现，网页从默认的`login.jsp`跳转到了`index.jsp`
 
-![](https://tomax.xin/img/blog/cd/39.png)
+![](http://tomax.xin/img/blog/cd/39.png)
 
 在上述的`sayHello()`方法中，只是单纯的通过字符串返回了一个jsp，而没有进行任何的附加值，但是实际的应用中，我们需要为这个请求添加一些在服务端产生的数据，而这种操作往往是通过`model`（MVC中model的概念）在`view`中加以呈现，在java中有一种非常简单的方法实现这种目的，即通过在`sayHello()`(即处理当前请求的方法中)增加参数`ModelMap model`为`sayHello(ModelMap model)`来给请求增加一个model，在处理请求的过程中，根据需要为model通过`addAttribute()`方法来增加一些值(model 是一个map，key是字符串，value是一个对象)，而jsp提供了一些标签，可以通过这些标签直接访问请求中附加的model的一些值并显示在网页中。
 
@@ -291,7 +290,7 @@ public @ResponseBody List<GoodEntity> getGoodList(){
 
 重启服务器，在浏览器地址栏中输入`localhost:8080/getGoodList`，结果如下
 
-![](https://tomax.xin/img/blog/cd/40.png)
+![](http://tomax.xin/img/blog/cd/40.png)
 
 **再谈第二种**
 
@@ -362,9 +361,9 @@ ResultCause checkToken(String token){
 
 重启服务器，在浏览器地址栏一次输入`localhost:8080/checkToken?token=1`，`localhost:8080/checkToken?token=2`，结果如下
 
-![](https://tomax.xin/img/blog/cd/41.png)
+![](http://tomax.xin/img/blog/cd/41.png)
 
-![](https://tomax.xin/img/blog/cd/42.png)
+![](http://tomax.xin/img/blog/cd/42.png)
 
 结果如设定的是一样的。
 
