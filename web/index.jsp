@@ -56,7 +56,7 @@
 </style>
 </head>
 <%
-  UserEntity user = (UserEntity) session.getAttribute("user");
+  UserEntity user = (UserEntity) session.getAttribute(session.getId());
   String username = "未登录";
   Integer userId = -1;
   if (user != null){
