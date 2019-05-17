@@ -16,8 +16,7 @@
 5. [增加数据库支持](https://github.com/XingToMax/DesignPatternDemo/blob/master/blogs/%E5%A2%9E%E5%8A%A0%E6%95%B0%E6%8D%AE%E5%BA%93%E6%94%AF%E6%8C%81.md)
 6. [登录注册功能的实现](https://github.com/XingToMax/DesignPatternDemo/blob/master/blogs/%E7%99%BB%E5%BD%95%E6%B3%A8%E5%86%8C%E5%8A%9F%E8%83%BD%E7%9A%84%E5%AE%9E%E7%8E%B0.md)
 7. [简单留言功能的实现](https://github.com/XingToMax/DesignPatternDemo/blob/master/blogs/%E7%AE%80%E5%8D%95%E7%95%99%E8%A8%80%E5%8A%9F%E8%83%BD%E7%9A%84%E5%AE%9E%E7%8E%B0.md)
-8. [总结](https://github.com/XingToMax/DesignPatternDemo/blob/master/blogs/%E6%80%BB%E7%BB%93.md)
-9. [问题跟踪和更新说明](https://github.com/XingToMax/DesignPatternDemo/blob/master/blogs/%E9%97%AE%E9%A2%98%E8%B7%9F%E8%B8%AA%E5%92%8C%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E.md)
+8. [问题跟踪和更新说明](https://github.com/XingToMax/DesignPatternDemo/blob/master/blogs/%E9%97%AE%E9%A2%98%E8%B7%9F%E8%B8%AA%E5%92%8C%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E.md)
 
 ## 阅读须知
 
