@@ -1,6 +1,8 @@
 # DesignPatternDemo
 基于Spring MVC的demo，包含几篇介绍web开发的博客，用于设计模式课程设计
 
+本课设demo实现技术栈非常落后，效率极差，建议学习使用spring boot完成相应的开发(后续有空会更新为spring boot的内容)。
+
 [第一篇博客地址](https://github.com/XingToMax/DesignPatternDemo/tree/master/blogs)
 
 + blogs目录下为博客，点开目录的README.md即为博客目录
